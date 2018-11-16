@@ -1,0 +1,94 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant de Willy
+Author: Willy
+Template: royal-magazine
+Version: 0.1.0
+*/
+
+.alt-bgcolor, .primary-bgcolor, .primary-bgcolor, .container-bg{
+    background: #111A29;
+    color: #fff;
+}
+
+.news > span::before{
+    background: #111A29;
+}
+
+
+.container-bg{
+    background: #111A29 !important;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+}
+
+.site-title a{
+    color: #fff;
+}
+
+.site-title a:hover{
+    text-decoration: none;
+}
+
+.site-branding{
+    /*padding:0;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.top-header{
+    border:none;
+}
+
+.popular-post, .icon-search{
+    border : 1px solid #F4F4F4;
+}
+
+.main-navigation .menu > ul > li.current-menu-item > a, .main-navigation .menu > ul > li:hover > a, .main-navigation .menu > ul > li:focus > a{
+    text-decoration: none;
+    background: #F4F4F4;
+}
+
+.site-title, .site-title a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mb-50 {
+    margin-bottom: 0;
+}
+.mt-20 {
+    margin-top: 0;
+}
+
+.slider-figcaption-wrapper{
+    background: #F4F4F4;
+    color: #111A29;
+}
+
+.slide-title a {
+    color: #111A29;
+}
+
+.post-meta span a {
+    color: #111A29;
+    font-weight: normal;
+}
+
+
+.mainbanner-jumbotron .post-meta a {
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.mainbanner-jumbotron .post-meta {
+    padding-top: 10px;
+    font-style: normal;
+}
+
+.col-left, .col-right, body{
+    background: #F4F4F4;
+}

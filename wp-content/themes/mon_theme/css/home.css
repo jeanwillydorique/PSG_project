@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.site{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.site-content, .content-area, .site-main{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.producthomepage{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #F8FCFC;
+}
+
+.productcardhomepage{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.productcarhomepage img{
+    width: 100%;
+    height: auto;
+}

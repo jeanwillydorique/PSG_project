@@ -1,0 +1,23 @@
+
+.productpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FCFC;
+}
+
+.productpage a {
+    text-decoration: none;
+}
+
+.productpage p a{
+    text-decoration: none;
+    color: black;
+}
+
+.entry-content p:first-child, .entry-content h2:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
